@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id = "car" class="ch1.lab3.Car">
+		<constructor-arg type="java.lang.String" value="I20"></constructor-arg>
+		<constructor-arg type="float" value="120.20"></constructor-arg>
+		<constructor-arg type="int" value="1"></constructor-arg>
+	</bean>
+	<bean id = "person" class="ch1.lab3.Person">
+		<constructor-arg ref="car"></constructor-arg>
+		<constructor-arg index="1" value="Mukesh"></constructor-arg>
+	</bean>
+</beans>

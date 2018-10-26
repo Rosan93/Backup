@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id = "hostel" class="ch1.lab4.autowire.byname.Hostel">
+		<property name= "hostelName" value = "New Kathmandu Hostel"></property>
+		<property name= "city" value = "Sankhamool"></property>
+	</bean>
+	<bean id = "student" class="ch1.lab4.autowire.byname.Hostel" autowire = "byName">
+		<property name= "id" value = "123"></property>
+		<property name= "name" value = "Mukesh Regmi"></property>
+	</bean>
+</beans>

@@ -1,0 +1,15 @@
+
+Jan 10, 2018 12:41:44.92 NEW SESSION
+Jan 10, 2018 12:41:44.93 [1892:13724:0110/124144.710:ERROR:connection_factory_impl.cc(381)] Failed to connect to MCS endpoint with error -105
+Jan 10, 2018 12:42:10.17 [1892:13724:0110/124210.175:ERROR:connection_factory_impl.cc(381)] Failed to connect to MCS endpoint with error -105
+Jan 10, 2018 12:42:19.29 [1112:10488:0110/124219.295:ERROR:connection_factory_impl.cc(381)] Failed to connect to MCS endpoint with error -105
+Jan 10, 2018 12:42:46.57 [1112:10488:0110/124246.571:ERROR:connection_factory_impl.cc(381)] Failed to connect to MCS endpoint with error -105
+Jan 10, 2018 12:43:02.32 [1112:10488:0110/124302.320:ERROR:connection_factory_impl.cc(381)] Failed to connect to MCS endpoint with error -105
+Jan 10, 2018 12:43:08.84 [1112:10488:0110/124308.843:ERROR:connection_factory_impl.cc(381)] Failed to connect to MCS endpoint with error -105
+Jan 10, 2018 12:44:18.56 [1112:10488:0110/124418.566:ERROR:process_metrics.cc(105)] NOT IMPLEMENTED
+Jan 10, 2018 12:44:18.58 [1112:10488:0110/124418.566:ERROR:process_metrics.cc(105)] NOT IMPLEMENTED
+Jan 10, 2018 12:44:18.60 [1112:10488:0110/124418.566:ERROR:process_metrics.cc(105)] NOT IMPLEMENTED
+Jan 10, 2018 12:45:01.81 [1112:10488:0110/124501.814:ERROR:connection_factory_impl.cc(381)] Failed to connect to MCS endpoint with error -21
+Jan 10, 2018 12:46:18.56 [1112:10488:0110/124618.568:ERROR:process_metrics.cc(105)] NOT IMPLEMENTED
+Jan 10, 2018 12:46:18.58 [1112:10488:0110/124618.568:ERROR:process_metrics.cc(105)] NOT IMPLEMENTED
+Jan 10, 2018 12:46:18.60 [1112:10488:0110/124618.568:ERROR:process_metrics.cc(105)] NOT IMPLEMENTED

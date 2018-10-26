@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"> 
+	
+	<bean id="beanA" class="ch1.lab7.dependson.A" depends-on="beanB"></bean>
+ 		<bean id="beanB" class="ch1.lab7.dependson.B" depends-on="beanC"></bean>
+ 			<bean id="beanC" class="ch1.lab7.dependson.C">
+ 			</bean> 
+</beans> 
